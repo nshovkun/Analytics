@@ -1,3 +1,4 @@
+-- https://sqliteonline.com/
 
 WITH PREP_SET AS (
   SELECT DISTINCT TO_CHAR(date_trunc('MONTH',"date"::TIMESTAMP), 'YYYY/MM/DD') AS MONTHLY_DATE
